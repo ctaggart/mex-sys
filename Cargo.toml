@@ -1,0 +1,12 @@
+[package]
+name = "mex-sys"
+version = "0.1.0"
+authors = ["Cameron Taggart <cameron.taggart@gmail.com>"]
+build = "build.rs"
+description = "A bindgen generated Rust wrapper around mex.h for creating binary MEX files callable from MATLAB."
+keywords = ["MATLAB", "mex"]
+license = "MIT"
+homepage = "https://github.com/ctaggart/mex-sys"
+repository = "https://github.com/ctaggart/mex-sys"
+
+[lib]
